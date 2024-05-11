@@ -1,59 +1,59 @@
-# AC(AtCoder) Library
+# AC (AtCoder) ライブラリ
 
-AC Library is the official library of [AtCoder](https://atcoder.jp/home). This repository manages the contents of AC Library.
+AC Library は、[AtCoder](https://atcoder.jp/home) の公式ライブラリです。このリポジトリでは、AC Library の内容を管理しています。
 
-You may refer to the following links for more details:
+詳細については、以下のリンクをご参照ください。
 
-- [The Announcement on AtCoder](https://atcoder.jp/posts/518)
-- [The Announcement on Codeforces](https://codeforces.com/blog/entry/82400)
-- [Practice Contest](https://atcoder.jp/contests/practice2)
-- [AC Library Document(en)](https://atcoder.github.io/ac-library/production/document_en/)
-- [AC Library Document(ja)](https://atcoder.github.io/ac-library/production/document_ja/)
+- [AtCoder での発表](https://atcoder.jp/posts/518)
+- [Codeforces での発表](https://codeforces.com/blog/entry/82400)
+- [練習コンテスト](https://atcoder.jp/contests/practice2)
+- [AC Library ドキュメント (英語)](https://atcoder.github.io/ac-library/production/document_en/)
+- [AC Library ドキュメント (日本語)](https://atcoder.github.io/ac-library/production/document_ja/)
 
-The documents of master branch are as follows:
+master ブランチのドキュメントは以下のとおりです。
 
-- [AC Library Document(en, master)](https://atcoder.github.io/ac-library/master/document_en/)
-- [AC Library Document(ja, master)](https://atcoder.github.io/ac-library/master/document_ja/)
+- [AC Library ドキュメント (英語, master)](https://atcoder.github.io/ac-library/master/document_en/)
+- [AC Library ドキュメント (日本語, master)](https://atcoder.github.io/ac-library/master/document_ja/)
 
-## Policy
+## 方針
 
-Our goal of this project is to achieve that
+このプロジェクトの目標は、次のとおりです。
 
-- Enable **every AtCoder users** to use this library with **minimum efforts of studying about PC**
-- Maximize convenience for **the usage in competitive programming**. We completely ignore other usages.
-- No bugs. This is a fantasy, but we pursue this.
+- **すべての AtCoder ユーザー** が **PC の学習を最小限に抑えて** このライブラリを使用できるようにする
+- **競技プログラミングでの使用** に最大限の利便性を提供する。他の用途は完全に無視します。
+- バグがない。これは幻想ですが、私たちはこれを追求しています。
 
-By this policy, we ignore some manners of C++ intentionally. For example,
+この方針により、C++ のいくつかの作法を意図的に無視しています。例えば、
 
-- we don't use `size_t`, but use `int`.
-- Segtree handles function pointers, not functional objects.
-- and so on...
+- `size_t` は使用せず、`int` を使用します。
+- Segtree は、関数オブジェクトではなく、関数ポインタを扱います。
+- など...
 
-## Direction of this project
+## このプロジェクトの今後
 
-We haven't decided whether we should increase this library's contents or not because there are pros and cons.
-If you are interested in this topic, please join the discussion in [The Announcement on Codeforces](https://codeforces.com/blog/entry/82400).
+このライブラリのコンテンツを増やすかどうかについては、賛否両論あるため、まだ決定していません。
+このトピックにご興味のある方は、[Codeforces での発表](https://codeforces.com/blog/entry/82400) で議論にご参加ください。
 
-For now, we are not planning to add new features, and we use this repository only for
+今のところ、新機能の追加は予定しておらず、このリポジトリは次の目的でのみ使用します。
 
-- collecting issues
-- recording the changelogs
-- versioning our releases
+- 問題の収集
+- 変更履歴の記録
+- リリースのバージョン管理
 
-## Contributing
+## 貢献
 
-We accept issues/PRs **only from AtCoder users**.
+問題/PR は **AtCoder ユーザーからのみ** 受け付けています。
 
-We would appreciate it if you would report our mistakes like a typo, or, more importantly, bugs!
+タイプミスのような間違いや、さらに重要なバグを報告していただけると幸いです。
 
-As mentioned above, we haven't decided which way to go. Therefore we are not accepting feature requests for now, and issues will be closed.
+上記のように、私たちはまだどちらの方向に進むか決めていません。そのため、今のところ機能リクエストは受け付けておらず、問題はクローズされます。
 
-## Releases
+## リリース
 
-You can view the newest version of AC Library in [The Announcement on AtCoder](https://atcoder.jp/posts/518) page.
+AC Library の最新バージョンは、[AtCoder での発表](https://atcoder.jp/posts/518) ページでご覧いただけます。
 
-You can also see all versions in [The Release](https://github.com/atcoder/ac-library/releases) page.
+また、すべてのバージョンは [リリース](https://github.com/atcoder/ac-library/releases) ページでご覧いただけます。
 
-## License
+## ライセンス
 
-This library is released under the [CC0](https://creativecommons.org/publicdomain/zero/1.0/legalcode), except for the third-party libraries that are located under `/document_(en|ja)/lib` directory. Please refer [/document_en/lib/LICENSE.md](./document_en/lib/LICENSE.md) for details.
+このライブラリは、`/document_(en|ja)/lib` ディレクトリにあるサードパーティライブラリを除き、[CC0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) でリリースされています。詳細については、[/document_en/lib/LICENSE.md](./document_en/lib/LICENSE.md) を参照してください。
